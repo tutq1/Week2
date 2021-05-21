@@ -1,0 +1,200 @@
+/*reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#main {
+
+}
+#header1 {
+    height: 32px;
+    width: 1440px;
+    background-color: black;
+}
+#header2 {
+    height: 120px;
+    width: 1440px;
+    color: white;
+    display: flex;
+}
+#header3{
+    height: 50px;
+    width: 1440px;
+    color: white;
+    display: flex;
+}
+
+#nav2 li{
+    display: inline-block;
+}
+#nav li{
+    position: absolute;
+    display: inline-block;  
+    color: #ffff;
+    line-height: 32px;
+    font-size: 12px;
+}
+#nav .li1{
+    padding-left: 153px;
+    
+}
+#nav .li2{
+    padding-left: 288px;    
+}
+#nav .li3{
+    padding-left: 1128px;
+}
+#nav2 li a{
+    text-decoration: none;
+    line-height: 120px;   
+    font-size: 16px;
+    color: black;
+}
+#nav2 li .a1{
+    padding: 0px 68px 0px 130px;
+    width: 120px;
+    height: 50px;
+    font-size: 43px;   
+    color: black;
+    font-family: 'Germania One', cursive;
+}
+#nav2 li .a2{
+    padding: 50px 40px 50px 0px;
+    font-size: 16px;
+    text-decoration: underline;
+   
+}
+#nav2 li .a3{
+    padding-right: 82px;
+}
+#nav2 li .a4{
+    padding-left: 110px;
+}
+input{
+    width: 280px;
+    height: 38px;
+    top: 73px;
+    left: 530px;
+    background: white;
+    color: #9A9A9A;
+    
+}
+button{
+    width: 100px;
+    height: 38px;
+    position: absolute;
+    background: black;
+    color: white;
+}
+#nav3{
+    border-top: 1px solid rgba(196, 196, 196, 0.5);
+    
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-link{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: rgba(196, 196, 196, 0.5);
+    top: 0;
+    right: -0.5rem;
+}
+#nav3 li{
+    display: inline-block;
+}
+#nav3 li a{
+    
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0 35px;
+    /*border-right: 1px black;*/
+}
+
+/*ul li p:before{
+    background-color: gray;
+    color: 
+    content: "\f2a0";
+    font-family: "FontAwesome";
+    position: absolute;
+    width: 13.96px;
+    height: 14px;
+
+    left: 130.64px;
+    top: 9px;
+
+}*/
+
+
+.banner {
+    background: #C4C4C4;
+    height: 60rem;
+    z-index: 1;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+  
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+  
+.banner-text .text-small {
+    font-size: 16px;
+    
+}
+  
+.banner-text .text-large {
+    font-size: 5rem;
+    font-weight: 900;
+}
+.discover .btn-main {
+    margin-right: 80rem;
+}  
+.discover i {
+    margin-right: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 30px;
+    padding-left: 150px;
+}
+.discover button{
+
+}
+.discover span {
+    padding-left: 100px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+  
+.banner-img {
+    display: flex;
+    margin-left: 3.9rem;
+    z-index: 3;
+}
+  
+.overlay {
+    position: relative;
+}
+  
+#content {
+
+}
+
+#footer {
+
+}
